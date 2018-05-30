@@ -4,7 +4,7 @@ const server = require('http').createServer(app);
 var data=[{title:"a",content:"a"},{title:"b",content:"b"},{title:"c",content:"c"},
 {title:"ad",content:"ad"},{title:"ad",content:"ae"},{title:"aa",content:"aa"}];
 var allowCrossDomain = function(req, res, next) {
-    res.header('Access-Control-Allow-Origin', 'http://localhost:3001');
+    res.header('Access-Control-Allow-Origin', 'http://firstreact.epizy.com');
     res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
     res.header('Access-Control-Allow-Headers', 'Content-Type');
 
